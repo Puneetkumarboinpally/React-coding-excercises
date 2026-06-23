@@ -29,8 +29,8 @@ const App = () => {
         img="https://plus.unsplash.com/premium_vector-1764172272703-2a445187e395?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D"
       />
       <Card
-        name="Siring"
-        age={33}
+        name="chotu"
+        age={18}
         img="https://plus.unsplash.com/premium_vector-1764172272703-2a445187e395?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D"
       />
     </div>
