@@ -9,7 +9,7 @@ const App = () => {
         img="https://plus.unsplash.com/premium_vector-1764172270239-9090a96267a2?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
       <Card
-        name="VaraLakshi"
+        name="VaraLakshmi"
         age={27}
         img="https://plus.unsplash.com/premium_vector-1764172273613-9829ec69d134?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
