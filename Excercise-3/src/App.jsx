@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div className="parent">
       <Card
-        name="Puneet kuamr"
+        name="Puneet kumar"
         age={29}
         img="https://plus.unsplash.com/premium_vector-1764172270239-9090a96267a2?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
