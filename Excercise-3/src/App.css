@@ -11,8 +11,8 @@ body {
   padding: 2rem;
 }
 .parent {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .cards {
   width: 400px;
