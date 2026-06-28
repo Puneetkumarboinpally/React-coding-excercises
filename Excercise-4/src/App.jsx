@@ -3,22 +3,22 @@ import React, { useState } from "react";
 const App = () => {
   const [count, setCount] = useState(0);
 
-  function increaseBtn() {
-    setCount(count + 1);
-  }
-  function decreaseBtn() {
-    setCount(count - 1);
-  }
-  function resetBtn() {
+  const increaseBtn = () => {
+    setCount((prev) => prev + 1);
+  };
+  const decreaseBtn = () => {
+    setCount((prev) => Math.max(prev - 1, 0));
+  };
+  const resetBtn = () => {
     setCount(0);
-  }
+  };
 
   return (
     <div className="h-screen bg-blue-950 flex flex-col justify-center items-center">
       <div className="p-6 bg-gray-200 text-center rounded-xl">
         <h1 className="text-3xl font-bold">Basic Counter App</h1>
         <h1
-          className="text-4xl font-bold my-4 p-4 
+          className="text-5xl font-bold my-4 p-4 
                     bg-blue-950 text-center text-white"
         >
           {count}
