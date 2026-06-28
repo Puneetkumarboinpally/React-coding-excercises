@@ -55,7 +55,7 @@ const App = () => {
         <p className="text-xl font-bold mb-4">Character count: {text.length}</p>
         <button
           onClick={reset}
-          className="border py-1 px-2 rounded transition-all 
+          className="border-2 py-1 px-2 rounded transition-all 
         duration:300 hover:translate-y-[-2px]"
         >
           Reset
