@@ -17,7 +17,7 @@ const App = () => {
     <div className="h-screen bg-gray-800 flex justify-center items-center">
       <div className="border border-white p-16 text-center">
         <p className="text-white text-4xl mb-8 font-bold">
-          Counter app with redux
+          Counter App with redux
         </p>
         <h1 className="text-6xl mb-6 font-bold text-white rounded border p-4">
           {count}
