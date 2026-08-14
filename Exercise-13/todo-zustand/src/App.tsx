@@ -1,10 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useThemeStore } from "./store/themeStore";
 import { Moon, Sun } from "lucide-react";
+import { useTodoStore } from "./store/todoStore";
 
 const App = () => {
+  const [text, setText] = useState("");
+
   const theme = useThemeStore((state) => state.theme);
   const toggle = useThemeStore((state) => state.toggleTheme);
+
+  const todos = useTodoStore((state) => state.todos);
+  const addTodo = useTodoStore((state) => state.addTodo);
+  const removeTodo = useTodoStore((state) => state.removeTodo);
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
